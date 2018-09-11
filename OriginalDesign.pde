@@ -2,7 +2,6 @@ void setup(){
   size(1000, 1000);
   textSize(20);
   text(circleText, 800, 50);
-  ellipse(20, 20 ,20 ,20);
 }
 int circleSize = 100;
 String circleText = "Circle Size: " + circleSize;
