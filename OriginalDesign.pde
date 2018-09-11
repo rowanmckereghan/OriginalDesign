@@ -43,13 +43,13 @@ void keyReleased()
    background(197);
    circleSize = circleSize + 10;
    String circleText = "Circle Size: " + circleSize;
-   text(circleText, 800, 50);
+   text(circleText, 1000, 50);
  }
  else if ((keyCode == LEFT) && (circleSize >= 20))
  {
    background(197);
   circleSize = circleSize - 10;
   String circleText = "Circle Size: " + circleSize;
-  text(circleText, 800, 50);
+  text(circleText, 1000, 50);
  }
 }
