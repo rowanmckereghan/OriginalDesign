@@ -1,5 +1,5 @@
 void setup(){
-  size(1000, 1000);
+  size(1200, 700);
   textSize(20);
   text(circleText, 800, 50);
 }
