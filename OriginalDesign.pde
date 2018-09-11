@@ -1,7 +1,7 @@
 void setup(){
   size(1200, 700);
   textSize(20);
-  text(circleText, 800, 50);
+  text(circleText, 1000, 50);
 }
 int circleSize = 100;
 String circleText = "Circle Size: " + circleSize;
